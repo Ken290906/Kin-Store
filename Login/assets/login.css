@@ -1,0 +1,163 @@
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 65%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    height: 100vh;
+    padding: 24px;
+}
+
+.login-right, .login-left {
+    height: 100%;
+    width: 50%;
+}
+
+.login-left {
+    padding-left: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.login-header {
+    margin: 0;
+}
+
+.login-header-heading {
+    font-size: 6rem;
+    font-weight: 600;
+    line-height: 6.4rem;
+    padding: 24px 0;
+    margin: 0;
+}
+
+.login-header-title {
+    color: #999;
+    margin: 0;
+    padding-bottom: 64px;
+    font-size: 1.8rem;
+}
+
+.login-form {
+    max-width: 60rem;   
+}
+
+.login-form-item-input {
+    width: 100%;
+    height: 5rem;
+    border: 1px solid #666;
+    border-radius: 6.4rem;
+    padding-left: 3.2rem;
+    font-size: 2rem;
+}
+
+.login-form-item-input + .login-form-item-input {
+    margin-top: 15px;
+}
+
+.login-main-form {
+    height: 8rem;
+    line-height: 4rem;
+    display: flex;
+    align-items: center;
+    padding: 4rem 0;
+}
+
+.login-main-form-checkbox {
+    height: 2rem;
+    width: 2rem;
+    margin: 0.5rem;
+}
+
+.login-main-form-title {
+    padding: 0 1rems;
+    font-size: 1.5rem;
+}
+
+.login-form-submit {
+    font-size: 2rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border: 1px solid #666;
+    border-radius: 6rem;
+    background: linear-gradient(to right, blue, violet);
+    cursor: pointer;
+}
+
+.login-form-btn {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+.login-form-footer {
+    max-width: 60rem;
+    display: flex;
+    justify-content: space-around;
+    padding: 9rem 0;
+}
+
+.login-footer-btn {
+    height: 6rem;
+    width: 45%;
+    border: 1px solid #666;
+    border-radius: 6.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.login-footer-btn:hover {
+    background-color: #444;
+    color: white;
+}
+
+.login-footer-img {
+    height: 4rem;
+}
+
+.login-right {
+    padding-right: 15rem
+}
+
+.login-right-img {
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
